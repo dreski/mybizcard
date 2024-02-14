@@ -1,0 +1,73 @@
+/* #header {background: transparent;} */
+
+.price-section {}
+.price-bg {
+    background-image: url('../images/Pricing-bg.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 60vh;width: 100%;
+    position: relative;
+}
+.price-title-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.price-title {font-family: "made-tommy-soft-bold";font-size: 52px;}
+.price-para p {font-family: 'MADE Tommy Soft';font-weight: normal;font-size: 42px;color: #000;text-align: center;}
+.price-para p span {font-weight: bold;color: #ff653a;}
+.price-card {
+    box-shadow: 3px 0 40px rgb(0 0 0 / 22%);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 30px;
+    font-family: 'MADE Tommy Soft';
+    background: #fff;
+    height: 100%;
+}
+.price-card-black {background: #070707;}
+.contact-price-card {background: #ff653a;}
+.price-background {position: absolute;}
+.round-bg {top: -30px;right: -30px;}
+.dots-bg {left: -32px;bottom: -42px;}
+.price-card-title .card-title {font-size: 36px;font-weight: bold;color: #070707;margin-bottom: 4px;}
+.price-card-title .card-sub-title {font-size: 16px;font-weight: normal;color: #333;font-family: 'MADE Tommy Soft';}
+.price-card-button {display: flex;justify-content: center;align-items: center;margin: 25px 0 20px;}
+.margin-top-basic {margin-top: 47px;}
+.btn-card {background-color: rgba(255, 101, 58,.1);border-radius: 50px;width: 300px;height: 59px;font-size: 18px;color: #ff653a;margin: 0 auto;font-family: 'Nunito', sans-serif;}
+.prices {font-size: 36px;font-weight: 500;color: #ff653a;}
+.price-day {color: #b8b8b8;font-size: 28px;}
+.card-prices-list {margin-top: 20px;}
+.price-list .price-items p {font-family: Nunito, sans-serif;font-size: 16px;color: #070707;margin-bottom: 0px;position: relative;margin-left: 35px;}
+.price-list .price-items {position: relative;margin-bottom: 5px;display: flex;align-items: center;}
+.price-list .price-items .price-checked {position: absolute;width: 15px;height: 15px;background: #ff653a;border-radius: 100%;top: 3px;}
+.price-list .price-items .price-checked img {width: 10px;object-fit: contain;position: absolute;display: flex;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
+.price-card-black .price-card-title .card-title {color: #ff653a;}
+.price-card-black .price-card-title .card-sub-title,.price-card-black .btn-card,.price-card-black .price-list .price-items p,.price-card-black .prices,.price-card-black .price-day {color: #fff;}
+.price-card-black .btn-card {background-color: #ff653a;font-weight: bold;}
+.price-card-black .round-bg {bottom: -20px;right: -10px;top: auto;}
+.price-card-black .dots-bg {left: -25px;top: -17px;bottom: auto;}
+.gold-price-card .round-bg {top: -72px;left: -50px;right: auto;}
+.gold-price-card .dots-bg {right: -129px;bottom: -40px;left: auto;}
+.contact-price-card .round-bg {top: -30px;left: -30px;right: auto;}
+.contact-price-card .dots-bg {right: -32px;bottom: -42px;left: auto;}
+.special-price-card .round-bg {bottom: -40px;left: -30px;top: auto;}
+.special-price-card .dots-bg {right: -32px;top: -42px;bottom: auto;}
+.contact-price-card .price-card-title .card-sub-title,.contact-price-card .price-list .price-items p,.contact-price-card .prices,.contact-price-card .price-day,.contact-price-card .price-card-title .card-title {color: #fff;}
+.contact-price-card .btn-card {background-color: #fff;font-weight: bold;}
+.contact-us-tailor {margin-top: 20px;}
+.contact-us-tailor h4 {color: #fff;font-size: 18px;font-family: 'Nunito', sans-serif;font-weight: 600;}
+.contact-price-card .price-list .price-items .price-checked {background: #fff;}
+.special-dimond-bg {background-color: #000;display: flex;align-items: center;justify-content: center;width: 228px;height: 64px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;position: absolute;top: 0;left: 0;right: 0;margin: 0 auto;z-index: 333;}
+.contact-price-card .price-card-bg {margin-top: 60px;}
+.dimond-img {margin: 0 10px;}
